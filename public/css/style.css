@@ -1,0 +1,426 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: bc-alphapipe, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.homecontainer{
+    width: calc(100% - 120px);
+    background-image: url("../img/background.jpg");
+    height: auto;
+    min-height: calc(100vh - 50px);
+    display: block;
+    padding: 40px 60px 10px 60px;
+}
+
+.homecontainer2{
+    width: calc(100% - 120px);
+    background-image: url("../img/background.jpg");
+    height: auto;
+    display: block;
+    min-height: calc(100vh - 50px);
+    padding: 40px 60px 10px 60px;
+}
+
+
+.container header{
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+
+h1{
+    color: white;
+    margin: 0;
+}
+
+h1 span{
+    color: red;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right
+}
+
+h2{
+    color: white;
+    margin: 0;
+    text-align: center;
+    margin-top: calc(50vh - 125px);
+    height: 60px;
+    font-size: 30px;
+}
+
+.headeranime{
+    animation: fontchange 10s infinite alternate;
+}
+
+@keyframes fontchange{
+    0%{
+        font-size: 30px;
+    }
+    100%{
+        font-size: 50px;
+    }
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a.active{
+    color: red;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a:hover{
+    color: red;
+}
+
+nav{
+    margin-top: -30px;
+}
+
+.fas{
+    font-size: 30px;
+    color: red;
+}
+
+.navdiv{
+    display: none;
+}
+
+.black{
+    color: white;
+}
+
+
+.container{
+    width: calc(100% - 120px);
+    height: calc(100vh - 50px);
+    display: block;
+    padding: 40px 60px 10px 60px;
+}
+
+hr{
+    background-color: red;
+    margin-top: -30px;
+    height: 3px;
+    border: 0px;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.content{
+    width: 100%;
+}
+
+.content .left{
+    width: 50%;
+    margin-top: 25px;
+    float: left;
+}
+
+.content .right{
+    width: 50%;
+    float: right;
+    margin-top: 25px;
+}
+
+.content .left h2{
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+    width: 50%;
+    display: block;
+    text-align: left;
+    text-decoration: underline;
+    margin-left: 2.5%;
+    text-decoration-color: red;
+}
+
+.content .right h2{
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+    width: 50%;
+    display: block;
+    text-align: left;
+    text-decoration: underline;
+    margin-left: 2.5%;
+    text-decoration-color: red;
+}
+
+.content .right input.half{
+    color: grey;
+    font-weight: bold;
+    margin-top: 5px;
+    width: 42.5%;
+    display: block;
+    text-align: left;
+    float: left;
+    margin-left: 1%;
+    height: 20px;
+    border-radius: 35px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.content .left p{
+    margin-left: 2.5%;
+    color: white;
+}
+
+.content .right p{
+    margin: 0;
+    color: white;
+    margin-left: 2.5%;
+}
+
+.login{
+    width: 50%;
+    height: 300px;
+    color: black;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-top: calc(50vh - 200px);
+    font-size: 30px;
+    background-color: rgb(202, 202, 202);
+    border-radius: 25px 25px 0px 0px;
+    border: 2px solid red;
+}
+
+.login hr{
+    width: 50%;
+    margin: auto;
+}
+
+.login form input{
+    width: 80%;
+    margin: 0px auto;
+    height: 30px;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.login form input:focus{
+    border: 2px solid red;
+}
+
+.intro{
+    margin-top: 50px;
+}
+
+.intro h2{
+    margin: 0;
+}
+
+.intro p{
+    color: white;
+    font-size: 20px;
+    margin: 0px 100px;
+    text-align: center;
+}
+
+.intro p a{
+    text-decoration: underline;
+}
+
+.werk{
+    margin-left: 100px;
+    margin-top: 50px
+}
+
+.werk article{
+    width: 30%;
+    height: 500px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.werk article img{
+    max-width: 100%;
+    max-height: 250px;
+    background-image: url("../img/placeholder.png")
+}
+
+.werk article h4{
+    font-size: 25px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.werk article hr{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 2px;
+}
+
+.werk article p{
+    margin: 7px 4%;
+    font-size: 15px;
+}
+
+.werk article button{
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    width: 35%;
+    height: 35px;
+    border: 2px solid red;
+    background-color: rgb(194, 194, 194);
+    font-size: 15px;
+
+}
+
+.werk article button .fas{
+    color: black;
+    margin-left: 10px;
+}
+
+.werk article button:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.werk article .tagdiv{
+    height: 35px;
+    padding-top: 15px;
+}
+
+.werk article .tag{
+    margin: 0;
+    width: 50%;
+    height: 20px;
+    border-radius: 100px;
+    background-color: orange;
+    margin: 0px auto;
+}
+
+.werk article .tag p{
+    color: white;
+}
+
+.content .right input{
+    color: grey;
+    font-weight: bold;
+    margin-top: 5px;
+    width: 90%;
+    display: block;
+    text-align: left;
+    float: left;
+    margin-left: 1%;
+    height: 20px;
+    border-radius: 35px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.content .right form{
+    margin-top: 15px;
+    height: auto;
+    display: block;
+}
+
+.content .right form textarea{
+    color: grey;
+    font-weight: bold;
+    margin-top: 5px;
+    width: 90%;
+    display: block;
+    text-align: left;
+    float: left;
+    margin-left: 1%;
+    height: 150px;
+    border-radius: 35px;
+    padding: 10px;
+    font-size: 20px;
+    resize: none;
+}
+
+.content .right form input[type='submit']{
+    margin-left: 1%;
+    height: 50px;
+    text-align: center;
+    width: calc(90% + 18px);
+    color: red;
+}
+
+.werk a{
+    color: black;
+    font-size: 15px;
+}
+
+.werk a:hover{
+    color: white;
+}
+
+.right img{
+    max-height: 70vh;
+    max-width: 50%;
+    float: right;
+    margin-top: -50px;
+}
+
+.itemleft{
+    width: 49%;
+    float: left;
+}
+
+.itemleft img{
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid red;
+}
+
+.itemright{
+    width: 49%;
+    float: right;
+    margin-top: 20px;
+}
+
+.itemright h2{
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.itemright p{
+    color: white;
+    font-size: 17px;
+    margin: 0;
+    text-align: left;
+}
+
+.itemleft a{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
