@@ -30,3 +30,8 @@ Route::get('/contact', function(){
 });
 
 Route::get('/portfolio-detail/{id}', 'WorkController@SelectWork');
+
+Route::get('/login', 'AuthController@showLogin');
+Route::post('/post-login', 'AuthController@postLogin');
+Route::get('/dashboard', 'AuthController@dashboard');
+Route::get('/logout', 'AuthController@logout');
