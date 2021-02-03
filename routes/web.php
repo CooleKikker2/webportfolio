@@ -21,10 +21,12 @@ Route::get('/over', function(){
     return view('over');
 });
 
-Route::get('/werk', function(){
-    return view('werk');
+Route::get('/portfolio', function(){
+    return view('portfolio');
 });
 
 Route::get('/contact', function(){
     return view('contact');
 });
+
+Route::get('/portfolio-detail/{id}', 'WorkController@SelectWork');

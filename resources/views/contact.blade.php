@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coen Vink | Over</title>
+    <title>Coen Vink | Contact</title>
     <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/responsive.css') }}">
     <link rel="stylesheet" href="https://use.typekit.net/mdn4bzp.css">
     <script src="https://kit.fontawesome.com/c20ff3da34.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="homecontainer">
+    <div class="homecontainer2">
             <div class="containeroverlay">
             <header>
                 <div class="left">
@@ -23,9 +23,9 @@
                     <nav>
                         <ul>
                             <a href="/"><li>Home</li></a>
-                            <a href="/over" class="active"><li>Over Mij</li></a>
+                            <a href="/over"><li>Over Mij</li></a>
                             <a href="/portfolio"><li>Portfolio</li></a>
-                            <a href="/contact"><li>Contact</li></a>
+                            <a href="/contact" class="active"><li>Contact</li></a>
                         </ul>
                     </nav>
                 </div>
@@ -34,12 +34,25 @@
             <div class="content">
                 <div class="left">
                     <div class="text">
-                        <h2>Over Mij</h2>
-                        <p>Even Voorstellen! Ik ben Coen Vink, 17 jaar jong en sinds September 2019 student webdevelopment op het Grafisch Lyceum in Utrecht.<br><br>Ik ben in 2003 geboren in de stad Leiden en woon in Lisse, waar ik ook op de basisschool heb gezeten. Na de basisschool ben ik naar het VMBO in Leiden gegaan. In de tweede klas ontdekte ik de technische kant van de computer. Sinds dien ben ik wat gaan experimenteren met programmeren, het schrijven van servers, en uiteindelijk het bouwen van websites.<br><br>De keuze was snel gemaakt: Ik word developer! Eind 2018 heb ik besloten me aan te melden voor de opleiding webdevelopment op het Grafisch Lyceum Utrecht, waarvan ik nu in het tweede schooljaar zit.<br><br>Ik ga altijd voor de perfecte website! Ik hou ervan om mijzelf uit te dagen en alles zo goed mogelijk te regelen. Van Hosting tot een inlogsysteem. Het moét goed zijn!
+                        <h2>Contact</h2>
+                        <p>Coen Vink</p>
+                        <p>Aagje Dekenstraat 10</p>
+                        <p>2162KH Lisse</p>
+                        <p>0123-4567890</p>
                     </div>
                 </div>
                 <div class="right">
-                    <img src="{{ URL::asset('img/foto.png') }}" alt="Coen Vink">
+                    <h2>Nog vragen?</h2>
+                    <p>Neem hier gemakkelijk contact met mij op!</p>
+                    <form method="POST">
+                        <input class="half" name="voornaam" type="text" placeholder="Voornaam" required="required">
+                        <input class="half" name="achternaam" type="text" placeholder="Achternaam" required="required">
+                        <input name="email" type="email" placeholder="E-mailadres" required="required">
+                        <input type="tel" placeholder="Telefoonnummer">
+                        <input name="onderwerp" type="text" placeholder="Onderwerp" required="required">
+                        <textarea placeholder="Bericht"></textarea>
+                        <input type="submit" name="submit" value="Verstuur formulier!">
+                    </form>
                 </div>
             </div>
         </div>
