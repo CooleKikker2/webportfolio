@@ -30,6 +30,9 @@ Route::get('/contact', function(){
 });
 
 Route::get('/portfolio-detail/{id}', 'WorkController@SelectWork');
+Route::get('/newwork', 'Workcontroller@newWork');
+Route::post('/newpost', 'Workcontroller@postWork');
+Route::get('/delete/{id}', 'WorkController@DeleteWork');
 
 Route::get('/login', 'AuthController@showLogin');
 Route::post('/post-login', 'AuthController@postLogin');

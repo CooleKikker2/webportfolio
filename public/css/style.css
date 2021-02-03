@@ -247,12 +247,13 @@ hr{
 }
 
 .werk{
-    margin-left: 100px;
-    margin-top: 50px
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
 }
 
 .werk article{
-    width: 30%;
+    width: 29%;
     height: 500px;
     background-color: white;
     margin-left: 20px;

@@ -48,9 +48,9 @@
             $shortdesc = substr($work->description, 0, 170) . "...";
             $imageref = $work->image;
             if($work->school){
-                echo '<article><img alt="'. $work->title .'" src="img/'. $imageref .'"><div class="tagdiv"><div class="tag"><p>Schoolopdracht</p></div></div><h4>'.$work->title.'</h4><hr><p>'.$shortdesc.'</p><a href="portfolio-detail/'. $work->id.'"></a></article>';
+                echo '<article><img alt="'. $work->title .'" src="img/'. $imageref .'"><div class="tagdiv"><div class="tag"><p>Schoolopdracht</p></div></div><h4>'.$work->title.'</h4><hr><p>'.$shortdesc.'</p><a href="portfolio-detail/'. $work->id.'"></a><a href="delete/'. $work->id. '">Verwijder Werk</a></article>';
             }else{
-                echo '<article><img alt="'. $work->title .'" src="img/'. $imageref .'"><div class="tagdiv"></div><h4>'.$work->title.'</h4><hr><p>'.$shortdesc.'</p><a href="portfolio-detail/'. $work->id.'"></a></article>';
+                echo '<article><img alt="'. $work->title .'" src="img/'. $imageref .'"><div class="tagdiv"></div><h4>'.$work->title.'</h4><hr><p>'.$shortdesc.'</p><a href="portfolio-detail/'. $work->id.'"></a><a href="delete/ '. $work->id. '">Verwijder Werk</a></article>';
             }
         }
 
