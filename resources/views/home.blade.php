@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Coen Vink</title>
+    <title>Coen Vink | Home</title>
     <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="{{ URL::asset('css/responsive.css') }}">
     <link rel="stylesheet" href="https://use.typekit.net/mdn4bzp.css">
     <script src="https://kit.fontawesome.com/c20ff3da34.js" crossorigin="anonymous"></script>
 </head>
