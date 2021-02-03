@@ -21,10 +21,10 @@
                 </div>
                 <nav>
                     <ul>
-                        <a href="index.html" class="active"><li>Home</li></a>
-                        <a href="over.html"><li>Over Mij</li></a>
-                        <a href="portfolio.php"><li>Portfolio</li></a>
-                        <a href="contact.php"><li>Contact</li></a>
+                        <a href="/" class="active"><li>Home</li></a>
+                        <a href="/over"><li>Over Mij</li></a>
+                        <a href="/portfolio"><li>Portfolio</li></a>
+                        <a href="/contact"><li>Contact</li></a>
                     </ul>
                 </nav>
             </div>
